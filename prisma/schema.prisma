@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+datasource db {
+  provider = "sqlite"
+}
+model Portfolio {
+  id           String @id @default(cuid())
+  slug         String @unique
+  projects     Project[]
+}
+model Project {
+  id           String @id @default(cuid())
+  slug         String @unique
+  portfolioId  String
+  portfolio    Portfolio @relation(fields: [portfolioId], references: [id], onDelete: Cascade)
+  published    Boolean @default(false)
+  position     Int @default(0)
+  websiteUrl   String?
+  repositoryUrl String?
+  translations ProjectTranslation[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  @@index([portfolioId, published, position])
+}
+model ProjectTranslation {
+  id          String @id @default(cuid())
+  projectId   String
+  project     Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  locale      String
+  title       String
+  description String
+  @@unique([projectId, locale])
+}

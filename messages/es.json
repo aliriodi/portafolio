@@ -1,0 +1,17 @@
+{
+  "Home": {
+    "brand": "PORTAFOLIO DUAL",
+    "language": "Idioma",
+    "eyebrow": "Desarrollo · Ingeniería · Comunicaciones",
+    "title": "Dos disciplinas. Un portafolio.",
+    "intro": "Conoce mi trabajo en desarrollo web e ingeniería eléctrica, con enfoque en comunicaciones.",
+    "areas": "Áreas profesionales",
+    "webTitle": "Desarrollo web",
+    "webDescription": "Aplicaciones web, interfaces y soluciones de software.",
+    "engineeringTitle": "Ingeniería eléctrica",
+    "engineeringDescription": "Ingeniería eléctrica con mención en comunicaciones.",
+    "explore": "Ver portafolio",
+    "back": "Inicio",
+    "empty": "Aquí aparecerán los proyectos cuando los agregues y publiques."
+  }
+}

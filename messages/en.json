@@ -1,0 +1,17 @@
+{
+  "Home": {
+    "brand": "DUAL PORTFOLIO",
+    "language": "Language",
+    "eyebrow": "Development · Engineering · Communications",
+    "title": "Two disciplines. One portfolio.",
+    "intro": "Explore my work in web development and electrical engineering, with a focus on communications.",
+    "areas": "Professional areas",
+    "webTitle": "Web Development",
+    "webDescription": "Web applications, interfaces and software solutions.",
+    "engineeringTitle": "Electrical Engineering",
+    "engineeringDescription": "Electrical engineering with a specialization in communications.",
+    "explore": "Explore portfolio",
+    "back": "Home",
+    "empty": "Projects will appear here once they are added and published."
+  }
+}
