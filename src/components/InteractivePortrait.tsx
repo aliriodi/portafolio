@@ -9,7 +9,7 @@ export default function InteractivePortrait() {
   const [focused, setFocused] = useState(false);
 
   useEffect(() => {
-    const proximity = 350; // Distancia en píxeles alrededor del retrato.
+    const proximity = 250; // Distancia en píxeles alrededor del retrato.
 
     function handlePointerMove(event: PointerEvent) {
       if (event.pointerType === "touch") return;
