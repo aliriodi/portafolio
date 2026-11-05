@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <div>
 
-      <p className="eyebrow">{t('eyebrow')}</p>
+      {/* <p className="eyebrow">{t('eyebrow')}</p> */}
 
       <div className="retrato-interactivo" tabIndex={0}>
         <section className="hero-presentacion">

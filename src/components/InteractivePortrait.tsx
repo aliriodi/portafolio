@@ -72,7 +72,7 @@ export default function InteractivePortrait() {
       />
 
       <Image
-        src="/images/Alrio2.png"
+        src="/images/Alrio1.png"
         alt=""
         width={480}
         height={525}
