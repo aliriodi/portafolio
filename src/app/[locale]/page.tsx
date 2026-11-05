@@ -32,9 +32,7 @@ export default async function Home() {
             </p>
 
             <p className="hero-parrafo">
-              Aquí colocaremos tu presentación completa. El texto se distribuirá
-              de forma natural en varias líneas, como un párrafo, junto a tu
-              retrato.
+              {t('paragraph1')}
             </p>
           </div>
         </section>
